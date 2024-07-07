@@ -1,0 +1,31 @@
+### Get all apartments
+GET http://localhost:8080/apartments
+
+
+### Create apartment
+POST http://localhost:8080/apartments
+Content-Type: application/json
+
+{
+    "location": "ALX_smouha",
+    "price": 5000000,
+    "roomsNumber": 3
+}
+    
+
+
+### get an apartment by id
+GET http://localhost:8080/apartments/66894fc0014d2303714733b1
+
+### update an apartment by id
+PATCH  http://localhost:8080/apartments/66894fc0015d2303714733b1
+Content-Type: application/json
+
+{
+    "location":"ALX_Kafrabdo",
+    "available": true
+}
+
+
+### delete an apartments by id
+DELETE  http://localhost:8080/apartments/6689tfc0014d2303714733b1
