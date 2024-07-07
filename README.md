@@ -10,4 +10,4 @@ step to follow:
 
 5-backend will run on port 8080 , you can access the create api from postman using this url 'http://localhost:8080/apartments'
 
-6-edit , delete apis as implmented as well
+6-edit and delete APIs are implmented as well
